@@ -8,3 +8,127 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+
+
+/*NAV-BAR*/
+
+#logoslack {
+    width: 25%;
+}
+
+nav ul {
+    display: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#nav-bar a {
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+  }
+
+  #menu-button {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+
+/*HEADER*/
+
+#header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*MAIN*/
+
+header, #section2, #section3 {
+    text-align: center;
+}
+
+
+
+
+/*BUTTONS*/
+  
+  /*
+  button {
+    padding: 10px 24px;
+    border-radius: 4px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+*/
+
+.menu-icon {
+    background: black;
+}
+
+
+  .signup-google {
+    color: white;
+    background-color: #4285F4;
+    border-color: #4285F4;
+  }
+
+  #googlelogo {
+    background-color: white;
+    height: 15%;
+    width: 15%;
+  }
+
+  .white-purple-button {
+    background-color: white;
+    border-color: #540B51;
+    color: #540B51;
+  }
+
+  .purple-white-button {
+    background-color: #540B51;
+    border-color: white;
+    color: white;
+  }
+
+
+/*IMAGES*/
+
+.screenshot {
+    max-width: 100%;
+    height: auto;
+}
+
+.logoimg {
+    width: 25%;
+}
+
+.mobileimg {
+    max-width: 100%;
+    height: auto;
+}
+
+#slacklogo {
+    width: 15%;
+    padding: 5%;
+}
+
+
+/*FOOTER*/
+
+#footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-list {
+    line-height: 2.5em;
+}

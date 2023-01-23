@@ -17,33 +17,33 @@
 </head>
 
 <body>
-  <nav>
+  <nav id="nav-bar">
     <div>
-      <img src="./images/slack-logo.png" alt="Slack logo" />
+      <img src="./images/slack-logo.png" alt="Slack logo" id="logoslack"/>
 
       <ul>
         <li>
-          <a href="#">Product</a>
+          <a class="menu-items" href="#">Product</a>
         </li>
         <li>
-          <a href="#">Solutions</a>
+          <a class="menu-items" href="#">Solutions</a>
         </li>
         <li>
-          <a href="#">Resources</a>
+          <a class="menu-items" href="#">Resources</a>
         </li>
         <li>
-          <a href="#">Pricing</a>
+          <a class="menu-items" href="#">Pricing</a>
         </li>
       </ul>
     </div>
 
-    <div>
+    <div id="menu-button">
       <button>
-        <img src="./images/icon-search.png" alt="Search icon">
+        <img src="./images/icon-search.png" alt="Search icon" class="menu-icon">
       </button>
 
       <button>
-        <img src="./images/icon-menu.png" alt="Menu icon">
+        <img src="./images/icon-menu.png" alt="Menu icon" class="menu-icon">
       </button>
 
       <ul hidden>
@@ -57,17 +57,19 @@
     </div>
   </nav>
 
-  <header>
+
+
+  <header id="header">
     <div>
       <h1>Great teamwork starts with a digital HQ</h1>
 
-      <p>Slack is free to try for as long as you'd like.</p>
+      <p><span style="color: orange">Slack is free to try</span> for as long as you'd like.</p>
 
       <div>
-        <button>Sign up with email</button>
+        <button class="white-purple-button">Sign up with email</button>
 
-        <button>
-          <img src="./images/logo-google.png" alt="Google logo" />
+        <button class="signup-google">
+          <img src="./images/logo-google.png" alt="Google logo" id="googlelogo"/>
           <span>Sign up with Google</span>
         </button>
       </div>
@@ -75,28 +77,32 @@
     </div>
 
     <div>
-      <img src="./images/hero-product-ui.png" alt="Slack app screenshot" />
+      <img src="./images/hero-product-ui.png" alt="Slack app screenshot" class="screenshot"/>
     </div>
   </header>
 
-  <main>
+
+
+
+
+  <main id="main-container">
     <section>
       <p>Trusted by companies all over the world</p>
 
       <div>
-        <img src="./images/logo-airbnb.png" alt="Airbnb logo" />
-        <img src="./images/logo-nasa.png" alt="NASA logo" />
-        <img src="./images/logo-uber.png" alt="Uber logo" />
-        <img src="./images/logo-target.png" alt="Target logo" />
-        <img src="./images/logo-nyt.png" alt="New York Times logo" />
-        <img src="./images/logo-spotify.png" alt="Spotify logo" />
+        <img src="./images/logo-airbnb.png" alt="Airbnb logo" class="logoimg"/>
+        <img src="./images/logo-nasa.png" alt="NASA logo"class="logoimg"/>
+        <img src="./images/logo-uber.png" alt="Uber logo" class="logoimg"/>
+        <img src="./images/logo-target.png" alt="Target logo" class="logoimg"/>
+        <img src="./images/logo-nyt.png" alt="New York Times logo" class="logoimg"/>
+        <img src="./images/logo-spotify.png" alt="Spotify logo" class="logoimg"/>
       </div>
 
     </section>
 
     <section>
       <div>
-        <img src="./images/connectedness-mobile.png" alt="connectedness" />
+        <img src="./images/connectedness-mobile.png" alt="connectedness" class="mobileimg"/>
       </div>
 
       <div>
@@ -128,13 +134,13 @@
       </div>
 
       <div>
-        <img src="./images/flexibility-mobile.png" alt="flexibility" />
+        <img src="./images/flexibility-mobile.png" alt="flexibility" class="mobileimg"/>
       </div>
     </section>
 
     <section>
       <div>
-        <img src="./images/speed-mobile.png" alt="speed" />
+        <img src="./images/speed-mobile.png" alt="speed" class="mobileimg"/>
       </div>
 
       <div>
@@ -151,13 +157,13 @@
     </section>
 
 
-    <section>
+    <section id="section2">
       <h3>Teams large and small rely on Slack</h3>
       <p>Slack securely scales up to support collaboration at the world’s biggest companies.</p>
 
       <div>
-        <button>Meet Slack for enterprise</button>
-        <button>Talk to sales</button>
+        <button class="white-purple-button">Meet Slack for enterprise</button>
+        <button class="purple-white-button">Talk to sales</button>
       </div>
 
       <ul>
@@ -187,20 +193,24 @@
       </ul>
     </section>
 
-    <section>
+    <section id="section3">
       <h3>Welcome to your new digital HQ</h3>
 
-      <button>Try for free</button>
-      <button>Talk to sales</button>
+      <button class="white-purple-button">Try for free</button>
+      <button class="purple-white-button">Talk to sales</button>
     </section>
 
   </main>
 
+
+
+
+
   <footer>
-    <img src="./images/iso-slack.png" alt="Slack logo" />
-    <div>
-      <ul>
-        <li>WHY SLACK?</li>
+    <img src="./images/iso-slack.png" alt="Slack logo" id="slacklogo"/>
+    <div id="footer-container">
+      <ul class="footer-list">
+        <li class="list-title">WHY SLACK?</li>
         <li>Slack vs. Email</li>
         <li>Channels</li>
         <li>Engagement</li>
@@ -208,8 +218,8 @@
         <li>Watch the Demo</li>
       </ul>
 
-      <ul>
-        <li>PRODUCT</li>
+      <ul class="footer-list">
+        <li class="list-title">PRODUCT</li>
         <li>Features</li>
         <li>Integrations</li>
         <li>Enterprise</li>
@@ -217,14 +227,14 @@
         <li>Releases</li>
       </ul>
 
-      <ul>
-        <li>PRICING</li>
+      <ul class="footer-list">
+        <li class="list-title">PRICING</li>
         <li>Plans</li>
         <li>Paid vs. Free</li>
       </ul>
 
-      <ul>
-        <li>COMPANY</li>
+      <ul class="footer-list">
+        <li class="list-title">COMPANY</li>
         <li>About Us</li>
         <li>Leadership</li>
         <li>Investor Relations</li>
@@ -234,6 +244,7 @@
       </ul>
     </div>
 
+    <hr>
 
     <ul>
       <li>Status</li>
@@ -245,9 +256,8 @@
       <li>Download Slack</li>
     </ul>
 
-    <hr>
 
-    <ul>
+    <ul id="social">
       <li>
         <i class="fab fa-twitter"></i>
       </li>
